@@ -400,6 +400,7 @@ a {
     width: 250px;
     height: 350px;
     border-radius: 20px;
+    border: rgb(0,0,0) thin solid;
     align-items: center;
     display: flex;
     flex-direction: column;
