@@ -451,7 +451,7 @@ a {
 .foot{
     width: 100%;
     height:  auto;
-    background: linear-gradient(to top , rgb(0 89 67),#002a31);
+    background-color: #002a31;
 }
 
 
