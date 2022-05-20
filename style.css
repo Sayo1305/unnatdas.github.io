@@ -13,6 +13,25 @@ a {
     text-decoration: none; 
 }
 
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background: #32bca2;
+}
+
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to top , #000748 , #ad033d);
+    border-radius: 20px;
+}
+
+
 .Navbar{
     width: 100%;
     position: absolute;
@@ -612,6 +631,7 @@ a {
 }
 .email_form{
     display: flex;
+    padding: 10px;
     flex-direction: column;
     gap: 10px;
     color: rgb(255, 255, 255);
