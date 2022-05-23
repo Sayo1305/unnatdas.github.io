@@ -21,16 +21,18 @@ a {
   
   /* Track */
 ::-webkit-scrollbar-track {
-    border-radius: 5px;
-    background: #32bca2;
+    background: #0d0038;
 }
 
   /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: linear-gradient(to top , #000748 , #ad033d);
+    background: linear-gradient(to top , #8893f8 , #ffb9d1);
     border-radius: 20px;
 }
 
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(to top , #68f763 , #ffb9d1);
+}
 
 .Navbar{
     width: 100%;
