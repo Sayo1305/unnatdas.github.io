@@ -744,7 +744,6 @@ a {
     }
     .who {
         font-size: 77px;
-        margin-bottom: 15rem;
     }
     .about_real{
         font-size: 2rem;
@@ -767,17 +766,14 @@ a {
         display: none;
     }
     .profile_body_diff{
+        display: none;
+    }
+    .img_hidden{
         background: url("resource/profile1.png");
-        top: 112%;
-        display: block;
-        border-radius: 50px;
-        left: 20%;
-        z-index: 100;
         width: 240px;
         height: 265px;
-        margin-top: 12px;
-        background-repeat: no-repeat;
-        position: absolute;
+        border-radius: 10px;
+        margin: 0 auto;
     }
     .face {
         display: none;
