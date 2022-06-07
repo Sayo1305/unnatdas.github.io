@@ -539,8 +539,9 @@ a {
 
 .cp_element:hover{
     animation: big infinite 10s;
-    color: rgb(233, 84, 146);
+    color: rgb(233, 84, 146) !important;
 }
+
 
 @keyframes big {
     0%{
