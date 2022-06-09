@@ -97,8 +97,8 @@ a {
 }
 
 .about:hover{
-    background: rgba(192, 41, 230, 0);
-    color: rgb(255, 255, 255);
+    background: rgb(255, 255, 255);
+    color: rgb(161, 7, 84);
     border-radius: 20rem;
     border: rgb(255, 255, 255) solid thin;
     outline: none;
@@ -539,7 +539,7 @@ a {
 
 .cp_element:hover{
     animation: big infinite 10s;
-    color: rgb(233, 84, 146) !important;
+    color: rgb(226, 150, 182) !important;
 }
 
 
