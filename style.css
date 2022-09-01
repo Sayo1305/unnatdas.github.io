@@ -10,7 +10,7 @@ body{
 }
 a {
     color: rgb(0, 0, 0);
-    text-decoration: none; 
+    text-decoration: none !important; 
 }
 
 
@@ -99,7 +99,7 @@ a {
 .about:hover{
     background: rgb(255, 255, 255);
     color: rgb(161, 7, 84);
-    border-radius: 20rem;
+    border-radius: 10px;
     border: rgb(255, 255, 255) solid thin;
     outline: none;
     border-color: rgb(255, 255, 255);
@@ -306,8 +306,74 @@ a {
     align-items: center;
     align-content: space-around;
 }
-.skill_show img{
+.skill_show_img{
     width: 10%;
+    opacity: 0;
+    transform: translateY(40px);
+    transition : transform 2s ease,opacity 2s ease ;
+}
+
+.skill_show_img.appear{
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 2s ease,opacity 2s ease;
+}
+.about_real{
+    opacity: 0;
+    transform: translateY(40px);
+    transition : transform 2s ease,opacity 2s ease ;
+}
+
+.about_real.appear{
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 2s ease,opacity 2s ease;
+}
+
+.skill_title_real{
+    opacity: 0;
+    transform: translateY(-40px);
+    transition : transform 1s ease,opacity 1s ease ;
+}
+.skill_title_real.appear{
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 1s ease,opacity 1s ease;
+}
+
+.edu_title_real, .cert_head_real  , .achive_title_real{
+    opacity: 0;
+    transform: translateY(-40px);
+    transition : transform 1s ease,opacity 1s ease ;
+}
+.edu_title_real.appear , .cert_head_real.appear , .achive_title_real.appear{
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 1s ease,opacity 1s ease;
+}
+
+#project_card1 , #project_card3 , #project_card5{
+    opacity: 0;
+    transform: translateX(-2vw);
+    overflow: hidden;
+    transition : transform 1s ease,opacity 1s ease ;
+}
+#project_card1.show , #project_card3.show , #project_card5.show{
+    opacity: 1;
+    transform: translateX(0);
+    transition: transform 1s ease,opacity 1s ease;
+}
+
+#project_card2 , #project_card4{
+    opacity: 0;
+    transform: translateX(2vw);
+    overflow: hidden;
+    transition : transform 1s ease,opacity 1s ease ;
+}
+#project_card2.show , #project_card4.show{
+    opacity: 1;
+    transform: translateX(0);
+    transition: transform 1s ease,opacity 1s ease;
 }
 
 .edu{
