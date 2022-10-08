@@ -1,7 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Source+Code+Pro&display=swap');
 *{
     padding: 0;
     scroll-behavior: smooth;
     margin: 0;
+    font-family: 'Source Code Pro', monospace;
 }
 
 body{
@@ -93,7 +95,7 @@ a {
     padding-bottom: 1vh;
     padding-left: 1.5vh;
     padding-right: 1.5vh;
-    font-family: 'Irish Grover', cursive;
+    font-family: 'Inconsolata', monospace;
 }
 
 .about:hover{
@@ -454,6 +456,7 @@ a {
 
 .achive{
     width: 100%;
+    padding: 10px;
     height: auto;
     gap: 10px;
     background: linear-gradient(to top,#EDC2D8FF,#8ABAD3FF);
@@ -714,6 +717,25 @@ a {
     background-color: #002a31;
     color: rgb(255, 255, 255);
     outline: none;
+}
+
+.MoreButtonGithub{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.MoreButton{
+    margin: 0 auto;
+    background: #ad033d;
+    color: #fff !important;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+    box-shadow: 1px 2px 3px 1px #000;
+    height: auto;
 }
 
 
