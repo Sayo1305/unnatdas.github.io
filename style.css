@@ -783,9 +783,11 @@ a {
     }
     .main_name{
         font-size: 2rem;
+        text-shadow: #fff 2px 1px 3px;
     }
     .main_name2{
         font-size: 5rem;
+        text-shadow: #000 2px 1px 3px;
     }
     .screen{
         top: 35%;
